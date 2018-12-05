@@ -1,46 +1,17 @@
-<html>
-      <head>
-        <link rel="stylesheet" type="text/css" href="nam.css">
-         <title>SENSEI</title>
-     </head>
-
-        <body>
-
-            <center>
-               <div style="width:650px;
-                                height:650px;
-                                border:1.7px solid #000;">
- 	 
-              <h2 align="center" style="font-family:arial;">Welcome to the SENSEI Web Client Portal!</h2>
-          <center>
-
-              <img align="middle" src="logo.png"  align="middle">
-              <align="center">
-                    <h4 align="center" style="font-family:arial;">SENSEI Captive Portal</h4>
-              </center>
-
-         <center>
-               <form action>
-                    <div class="container">
-                
-                         <br>
-                        <label>Username</label>
-                              <input type="text" id="username" placeholder="Enter Username" name="uname" required>
-                         </br>
-             
-                      <label>Password</label>
-                     <input type="password" id="password" placeholder="Enter Password" name="psw" required>
-                 </br>
-                    <button type="button" id="button" onclick="alert('Please Enter Username and password')">Login</button>
-            </div>  
-        </form> 
-      </center>
-
-         <h5 align="center" style="font-family:arial;">. Click here for User My Account</h5>
-               <font color="red">
-                 <h5 align="center" color="red"  style="font-family:arial;">Note:Do not close this window, closing this window will log you out.</h5>
-              </front>
-         </div>
-    </center>
-      </body>
-     </html>
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
